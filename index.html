@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive diet website</title>
+    <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <!-- swiper cdn link -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+
+    <!-- header section starts -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> diet</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#services">services</a>
+            <a href="#diet">diet</a>
+            <a href="#pricing">pricing</a>
+            <a href="#review">review</a>
+        </nav>
+
+        <div class="fas fa-bars" id="menu"></div>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>welcome to the place full of healthy food</h3>
+            <a href="#" class="btn"> read more</a>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading">about us</h1>
+
+        <div class="row">
+
+            <div class="content">
+                <h3>my mission is to give you a guideline for your health.</h3>
+                <p>I express a dedicated commitment to a specific objective. My mission is outlined clearly: 
+                    to provide you with a comprehensive guideline tailored to enhance and maintain your health.
+                     The use of the term "mission" emphasizes the seriousness and purpose behind this commitment,
+                      suggesting that I view it as a significant and meaningful goal. By highlighting the intention
+                       to offer a guideline, I aim to communicate a structured and systematic approach, showcasing my
+                        dedication to assisting you in achieving optimal well-being through thoughtful guidance.</p>
+                <a href="#" class="btn"> read more</a>
+            </div>
+
+            <div class="image">
+                <img src="images/about.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- services section starts -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading">our services</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+
+                <div class="icon">
+                    <img src="images/service-1.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>arranging a nutrition plan</h3>
+                    <div class="line"></div>
+                    <p>
+                        Creating a structured dietary regimen for optimal nutrition and health.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i>Enhancing health with structured nutrition plan.</li>
+                        <li><i class="fas fa-check"></i>Attaining  peak  nutrition  via a  structured  diet.</li>
+                        <li><i class="fas fa-check"></i>Improve  well-being through systematic nutrition.</li>
+                        <li><i class="fas fa-check"></i>Back health goals with  well-designed diet plan.</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="box">
+
+                <div class="icon">
+                    <img src="images/service-2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>meal Planning and Tracking</h3>
+                    <div class="line"></div>
+                    <p>Designing and monitoring a systematic approach to meals for effective nutritional management and progress tracking.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i>Creating a meal plan for effective nutrition management.</li>
+                        <li><i class="fas fa-check"></i>Executing a systematic meal approach for optimal nutrition.</li>
+                        <li><i class="fas fa-check"></i>Tracking nutritional progress through meticulous meal monitoring.</li>
+                        <li><i class="fas fa-check"></i>Crafting a structured meal approach for efficient nutrition management.</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="box">
+
+                <div class="icon">
+                    <img src="images/service-3.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>managing a body fat</h3>
+                    <div class="line"></div>
+                    <p>Implementing strategies to effectively control and reduce body fat through a combination of diet, exercise, and lifestyle management.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i>Blending diet, exercise, and lifestyle for body fat management.</li>
+                        <li><i class="fas fa-check"></i>Applying a holistic strategy for body fat control through strategic interventions.</li>
+                        <li><i class="fas fa-check"></i>Merging diet changes, exercise, and lifestyle for effective body fat reduction.</li>
+                        <li><i class="fas fa-check"></i>Implementing a comprehensive strategy to control and decrease body fat levels.</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- diet section starts -->
+
+    <section class="diet" id="diet">
+
+        <h1 class="heading">diet plan</h1>
+
+        <ul class="controls">
+            <li class="buttons active" data-filter="all">
+                <img src="images/diet-1.png" alt="">
+                <h3>all</h3>
+            </li>
+            <li class="buttons" data-filter="breakfast">
+                <img src="images/diet-2.png" alt="">
+                <h3>breakfast</h3>
+            </li>
+            <li class="buttons" data-filter="lunch">
+                <img src="images/diet-3.png" alt="">
+                <h3>lunch</h3>
+            </li>
+            <li class="buttons" data-filter="dinner">
+                <img src="images/diet-4.png" alt="">
+                <h3>dinner</h3>
+            </li>
+        </ul>
+
+        <div class="image-container">
+
+            <div class="box lunch">
+                <div class="image">
+                    <img src="images/diet_blog1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Weight Loss Meal Plan</a>
+                    <p>If your aim is to lose weight in a gradual, healthy manner then this diet would meet your requirements. The meals are well balanced and consist of complex carbohydrates, lean protein, healthy fats and generous portions of fruits and vegetables which add all the essential vitamins, minerals and fibre to your diet.</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 11 june, 2023</a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box breakfast">
+                <div class="image">
+                    <img src="images/diet_blog2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Maintenance Meal Plan</a>
+                    <p>
+                        Just looking for healthy food to help you maintain your weight and lead a healthy lifestyle? This is the plan for you! The meals are well balanced and consist of complex carbohydrates, lean protein, healthy fats and generous portions of fruits and vegetables which add all the essential vitamins, minerals and fibre to your diet.</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 11 june, 2023</a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box breakfast">
+                <div class="image">
+                    <img src="images/diet_blog3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Athletic Plan</a>
+                    <p>A diet rich in protein is essential for promoting muscle growth and repair while simultaneously burning fat to ensure you stay in shape. This plan includes high protein meals for individuals who want to gain weight or build muscle. If you are a fitness enthusiast who’s looking for meals higher in calories and lean protein then we’ve got you covered.
+                    </p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 11 june, 2023</a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box breakfast">
+                <div class="image">
+                    <img src="images/diet_blog4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Keto Meal Plan</a>
+                    <p>
+                        The keto diet is all about eating meals that are high in fat, consist moderate portions of protein and very low in carbs. The reduction of carbohydrates results in a metabolic process called ketosis where your body fat is then used to generate energy in the body.</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 11 june, 2023</a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box lunch">
+                <div class="image">
+                    <img src="images/diet_blog5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Mediterranean Diet</a>
+                    <p>The Mediterranean Diet is characterized by a diverse and balanced approach to eating, emphasizing whole, minimally processed foods. It draws inspiration from the dietary habits of countries bordering the Mediterranean Sea, such as Greece, Italy, and Spain. </p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 11 june, 2023</a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box dinner">
+                <div class="image">
+                    <img src="images/diet_blog6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Paleo Diet</a>
+                    <p>The Paleo Diet is centered around the principle of consuming foods that would have been available to our hunter-gatherer ancestors.</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 11 june, 2023</a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box dinner">
+                <div class="image">
+                    <img src="images/diet_blog7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Vegetarian Diet plan</a>
+                    <p>
+                        The Vegetarian Diet is a plant-based eating plan that excludes meat and, in some cases, other animal products. It focuses on consuming a variety of fruits, vegetables, grains, legumes, nuts, and seeds to meet nutritional needs. Here's a brief description of the Vegetarian Diet plan:
+                        
+                        Description:
+                        The Vegetarian Diet is a lifestyle choice that prioritizes plant-based foods while abstaining from meat. It is characterized by a rich and diverse array of fruits, vegetables, whole grains, legumes, nuts, and seeds. This diet not only eliminates the consumption of red meat, poultry, and seafood but also promotes ethical and environmental considerations by reducing reliance on animal products.</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 11 june, 2023</a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box dinner">
+                <div class="image">
+                    <img src="images/diet_blog8.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Intermittent Fasting</a>
+                    <p>Involves cycles of eating and fasting, with various approaches like 16/8 (16 hours fasting, 8 hours eating) or 5:2 (eating normally for five days and restricting calories for two days).</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 11 june, 2023</a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box dinner">
+                <div class="image">
+                    <img src="images/diet_blog9.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Atkins Diet</a>
+                    <p>The Atkins Diet is a low-carbohydrate diet designed for weight loss and improved overall health. It was developed by Dr. Robert C. Atkins in the 1960s and has undergone several revisions over the years. The fundamental principle of the Atkins Diet is to restrict carbohydrate intake to induce a state of ketosis, where the body primarily burns fat for energy.</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 11 june, 2023</a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- diet section ends -->
+
+    <!-- pricing section starts -->
+
+    <section class="pricing" id="pricing">
+
+        <h1 class="heading">pricing plan</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3 class="title">basic</h3>
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount">30</span>
+                    <span class="duration"> /year</span>
+                </div>
+                <ul>
+                    <li> <i class="fas fa-check"></i> nutrition plan</li>
+                    <li> <i class="fas fa-check"></i> training plan</li>
+                    <li> <i class="fas fa-check"></i> body measurement</li>
+                </ul>
+                <p>30 days consultation</p>
+                <p>3 personal meetings</p>
+                <p>$20 access to additional materials</p>
+                <a href="#" class="btn"> read more</a>
+            </div>
+
+            <div class="box active">
+                <h3 class="title">standard</h3>
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount">70</span>
+                    <span class="duration"> /year</span>
+                </div>
+                <ul>
+                    <li> <i class="fas fa-check"></i> nutrition plan</li>
+                    <li> <i class="fas fa-check"></i> training plan</li>
+                    <li> <i class="fas fa-check"></i> body measurement</li>
+                </ul>
+                <p>60 days consultation</p>
+                <p>10 personal meetings</p>
+                <p>free access to additional materials</p>
+                <a href="#" class="btn"> read more</a>
+            </div>
+
+            <div class="box">
+                <h3 class="title">premium</h3>
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount">90</span>
+                    <span class="duration"> /year</span>
+                </div>
+                <ul>
+                    <li> <i class="fas fa-check"></i> nutrition plan</li>
+                    <li> <i class="fas fa-check"></i> training plan</li>
+                    <li> <i class="fas fa-check"></i> body measurement</li>
+                </ul>
+                <p>90 days consultation</p>
+                <p>15 personal meetings</p>
+                <p>free access to additional materials</p>
+                <a href="#" class="btn"> read more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- pricing section ends -->
+
+
+    <!-- review section starts -->
+
+    <section class="reviews" id="review">
+
+        <h1 class="heading">client's reviews</h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <p>"Discovering diet website has been a game-changer for me! The personalized diet plans are not only effective but also easy to follow.
+                         The variety of delicious and nutritious meals keeps me motivated. The support from the diet plan team is outstanding – they truly care 
+                         about my health and success. If you're looking for a reliable and results-driven diet plan, look no further. Highly recommended!"</p>
+                    <div class="user">
+                        <img src="images/pic-1.png" alt="">
+                        <div class="info">
+                            <h3>john deo</h3>
+                            <span>client</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>"Thrilled with the results from diet website! The customized diet plan has made a noticeable difference 
+                        in my energy levels and overall well-being. The user-friendly interface and diverse recipe options make sticking to the plan a
+                        breeze. The support team is fantastic – responsive and genuinely invested in my success. This is not just a diet plan; it's a lifestyle
+                         transformation. Highly satisfied and definitely recommending [website name] to friends and family!"</p>
+                    <div class="user">
+                        <img src="images/pic-2.png" alt="">
+                        <div class="info">
+                            <h3>alexa carry</h3>
+                            <span>client</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>
+                        "Absolutely loving my experience with diet website! The diet plans are not only easy to follow 
+                        but have truly transformed my approach to food. The variety of meals keeps things interesting, and the results speak 
+                        for themselves. The guidance and support from the diet website team have been phenomenal – they really understand my needs.
+                         If you're serious about achieving your health goals, diet website is the way to go. Highly impressed and grateful for the positive 
+                         hanges it's brought to my life!"i0</p>
+                    <div class="user">
+                        <img src="images/pic-3.png" alt="">
+                        <div class="info">
+                            <h3>Kamil edy</h3>
+                            <span>client</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>"Thanks to diet website, my health journey has taken a positive turn! The personalized diet plan is a game-changer,
+                         offering not just effective guidance but a sustainable lifestyle shift. The recipes are both nutritious and delicious, 
+                         making healthy eating enjoyable. The continuous support from the diet website team has been invaluable – they're genuinely
+                          invested in my success. If you're looking for a reliable and transformative diet plan,
+                          diet website is the real deal. Highly recommend for anyone ready to embrace a healthier lifestyle!"</p>
+                    <div class="user">
+                        <img src="images/pic-4.png" alt="">
+                        <div class="info">
+                            <h3>Yuvika Desai</h3>
+                            <span>client</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>"Exceptional experience with diet website! The personalized diet plan has brought structure and variety to my meals,
+                         making healthy eating enjoyable. The user-friendly platform and diverse recipe options make sticking to the plan effortless.
+                           Seeing positive changes in my health and energy levels makes me highly recommend diet website to anyone seeking a practical and
+                            effective diet solution."</p>
+                    <div class="user">
+                        <img src="images/pic-5.png" alt="">
+                        <div class="info">
+                            <h3>Anis Mehta</h3>
+                            <span>client</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>"Grateful for the positive impact diet website has had on my health journey! The personalized diet plan is not only
+                         effective but also flexible and easy to incorporate into my lifestyle. The variety of meals keeps things interesting, and 
+                         the recipes are both tasty and nutritious. The support from the diet website team is top-notch – they provide guidance every step
+                          of the way. If you're serious about making lasting changes to your diet and overall health, diet website is the way to go. Highly recommended!"</p>
+                    <div class="user">
+                        <img src="images/pic-6.png" alt="">
+                        <div class="info">
+                            <h3>Mansi Jurel</h3>
+                            <span>client</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+    
+    <!-- newsletter section starts -->
+
+    <section class="newsletter">
+
+        <div class="content">
+            <h1 class="heading">subscribe now</h1>
+            <p>Elevate your experience by subscribing now! Gain exclusive access to premium content, \
+                stay updated with the latest information, and become part of our community. Don't miss out on exciting offers 
+                and benefits—subscribe today for a richer, more immersive experience tailored just for you. Join us on this journey, 
+                and let's explore and engage together!
+            </p>
+            <form action="">
+                <input type="email" placeholder="enter your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+
+    </section>
+
+    <!-- newsletter section ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home"> <i class="fas fa-arrow-right"></i>home</a>
+                <a href="#about"> <i class="fas fa-arrow-right"></i>about</a>
+                <a href="#services"> <i class="fas fa-arrow-right"></i>services</a>
+                <a href="#diet"> <i class="fas fa-arrow-right"></i>diet</a>
+                <a href="#blog"> <i class="fas fa-arrow-right"></i>blog</a>
+                <a href="#reviews"> <i class="fas fa-arrow-right"></i>reviews</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i>my account</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>my order</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>my wishlist</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>ask questions</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>terms of use</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>privacy policy</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i>+123-456-7890</a>
+                <a href="#"> <i class="fas fa-phone"></i>+123-765-2568</a>
+                <a href="#"> <i class="fas fa-envelope"></i>alvirasayyad@gmail.com</a>
+                <a href="#"> <i class="fas fa-map"></i>maharashtra, India -12233</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i>facebook</a>
+                <a href="#"> <i class="fab fa-twitter"></i>twitter</a>
+                <a href="#"> <i class="fab fa-instagram"></i>instagram</a>
+                <a href="#"> <i class="fab fa-linkedin"></i>linkedin</a>
+                <a href="#"> <i class="fab fa-github"></i>github</a>
+            </div>
+
+        </div>
+
+        <div class="credit">created by <span>Alvira Sayyad</span> | all rights are reserved!</div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jquery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- swiper cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- custom js link -->
+    <script src="script.js"></script>
+
+</body>
+</html>
